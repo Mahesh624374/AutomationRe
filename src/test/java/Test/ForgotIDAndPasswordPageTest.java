@@ -71,6 +71,10 @@ public class ForgotIDAndPasswordPageTest {
 		
 	}
 	
+	@Test
+	public void fakeLogin()
+	{
+		System.out.println("Some one trying to login using fake credentials");
+	}
 	
-
 }
